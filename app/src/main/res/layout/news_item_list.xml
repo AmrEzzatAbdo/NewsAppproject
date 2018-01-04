@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_of_the_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:text="@string/name_of_the_section"
+        android:textColor="@color/title"
+        android:textSize="@dimen/name_of_the_section" />
+
+    <TextView
+        android:id="@+id/title_of_the_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_of_the_section"
+        android:paddingLeft="@dimen/padding"
+        android:text="@string/title_of_the_article"
+        android:textSize="@dimen/title_of_the_article" />
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_of_the_article"
+        android:layout_marginTop="@dimen/marginTop"
+        android:paddingLeft="@dimen/padding"
+        android:text="@string/author_name"
+        android:textSize="@dimen/author_name" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="@dimen/padding"
+        android:text="@string/date"
+        android:textSize="@dimen/date" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/author_name"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/line" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News App project</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_of_the_article">Title of the article</string>
+    <string name="name_of_the_section">Name of the section</string>
+    <string name="author_name">Author name</string>
+    <string name="date">date</string>
+    <string name="networkState">No network connection</string>
+    <string name="search">Search</string>
+    <string name="searchText">type here..</string>
+</resources>
